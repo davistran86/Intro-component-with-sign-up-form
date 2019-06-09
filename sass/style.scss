@@ -77,7 +77,8 @@ body {
       .form-group {
         .error {
           color: hsl(0, 100%, 64%); 
-          border-color: hsl(0, 100%, 64%); 
+          border: 2px solid hsl(0, 100%, 64%); 
+          font-style: italic;
         }
 
         .input-error {
@@ -90,6 +91,7 @@ body {
         small {
           display: block;
           text-align: right;
+          border: none!important;
           
         }
       }

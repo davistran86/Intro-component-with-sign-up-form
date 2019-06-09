@@ -53,7 +53,8 @@ body {
 }
 .container .row .column-2 .form-group .error {
   color: #ff4747;
-  border-color: #ff4747;
+  border: 2px solid #ff4747;
+  font-style: italic;
 }
 .container .row .column-2 .form-group .input-error {
   display: inline-block;
@@ -65,6 +66,7 @@ body {
 .container .row .column-2 .form-group small {
   display: block;
   text-align: right;
+  border: none !important;
 }
 @media (max-width: 1023px) {
   .container .row .column-2 {
