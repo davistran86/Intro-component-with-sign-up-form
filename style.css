@@ -88,6 +88,7 @@ body {
   height: 3rem;
 }
 .container .row .column-2 .form button {
+  padding: 0.2rem;
   height: 3rem;
   display: block;
   width: 100%;
