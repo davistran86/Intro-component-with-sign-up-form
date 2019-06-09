@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="main-wraper">
+    <div class="container">
+      <div class="row">
+        <div class="column-1 col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
+          <h1 class="display-4 font-weight-bolder py-3">Learn to code by watching others</h1>
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="column-2 col-sm-12 col-lg-6 col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
+          <div class="notify">
+            <p><span class="font-weight-bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+          </div>
+
+          <div class="form">
+            <form name="form-register">
+              <div class="form-group">
+                <input type="text" class="form-control" id="form-firstName" placeholder="First Name" autocomplete="off" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="form-lastName" placeholder="Last Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="form-email" placeholder="Email Address" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="form-password" placeholder="Password" required>
+              </div>
+              <button type="submit" class="btn text-white font-weight-bold" onclick="checkForm()">CLAIM YOUR FREE TRIAL</button>
+              <p>By clicking the button, you are agreeing to our <span class="font-weight-bold"><a href="#">Terms and
+                    Services</a></span>
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Davis Tran</a>.
+    </p>
+  </footer> -->
+  <script src="index.js"></script>
+</body>
+
+</html>
