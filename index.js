@@ -19,8 +19,11 @@ function insertAfter(id, message) {
 
 function removeError(id) {
   let ref = document.getElementById(id);
-  ref.nextSibling.remove();
-  ref.classList.remove('input-error','error');
+  if(ref.nextElementSibling != null) {
+    ref.nextSibling.remove();
+    ref.classList.remove('input-error','error');
+  }
+  
 }
 
 function checkInputEmptyValue(id) {
